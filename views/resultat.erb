@@ -1,0 +1,41 @@
+<style type="text/css">
+  h2 , p{font-family: 'Convergence', sans-serif;}
+  </style>
+<center><h2><font color="#FF00F3;">Welcome to your confimation page !</h2></font> <br></center>
+<h2><font color="#0029FF">Here is personal informations</font></h2> 
+<br>
+<font face="arial" color="#7FFF00" size="5px">
+<p>Your name is :<%=params[:name]%></p>
+<p>Email-adress :<%=params[:email]%></p>
+</font>
+
+
+<button onclick="myFunction()">Confirm</button>
+<br>
+
+<!-- script -->
+ <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Convergence::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+<script>
+function myFunction() {
+    alert("A confimation mail was sent to u!");
+}
+</script>
+
+ <font face="verdana" color="#FFFF00" size="8px"><h2>We really appreciate your trust,<br> <br>and we’ll do our best to continue to give you<br><br> the kind of service you deserve. </h2>
+</font>  
+<a href="/lili">
+<button class="btn btn-danger">Get Back</button>
+</a>
