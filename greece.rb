@@ -8,7 +8,7 @@ end
 
 
 # RECUPERER UNE INFO A L'URL SUIVANTE
-get '/lili' do 
+get '/liste_inscription' do 
 	erb :page
 end
 
